@@ -3,7 +3,11 @@ import React from 'react';
 // state'full' component
 class App extends React.Component {
   render(){
-    return <h1>state'full' component</h1>
+    return (
+      <div>
+      <h1>state'full' component</h1> <b>Render only returns single node</b>
+      </div>
+    )
   }
 }
 
